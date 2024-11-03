@@ -1,3 +1,4 @@
+package factory_method1;
 /**
  * Car(자동차) 클래스
  * - Vehicle 인터페이스를 구현한 구체적인 차량 클래스

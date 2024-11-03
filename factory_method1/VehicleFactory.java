@@ -1,3 +1,4 @@
+package factory_method1;
 /**
  * VehicleFactory(차량 공장) 추상 클래스
  * - 팩토리 메서드 패턴의 핵심인 '생산자(Creator)' 역할을 하는 추상 클래스

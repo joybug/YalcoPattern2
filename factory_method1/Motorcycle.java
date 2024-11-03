@@ -1,3 +1,4 @@
+package factory_method1;
 /**
  * Motorcycle(오토바이) 클래스
  * - Vehicle 인터페이스를 구현한 또 다른 구체적인 차량 클래스

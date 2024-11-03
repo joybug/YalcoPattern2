@@ -1,3 +1,4 @@
+package factory_method1;
 /**
  * MotorcycleFactory(오토바이 공장) 클래스
  * - VehicleFactory를 상속받아 실제로 Motorcycle 객체를 생성하는 구체적인 공장 클래스
