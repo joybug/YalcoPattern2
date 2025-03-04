@@ -1,4 +1,4 @@
-package factory_method3;
+package factory_method.ex03;
 
 /**
  * BankTransferPayment 클래스 (계좌이체 결제)

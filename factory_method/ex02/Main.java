@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 
 /**
  * 메인 클래스 - 클라이언트 코드

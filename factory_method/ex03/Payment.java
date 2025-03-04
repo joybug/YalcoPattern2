@@ -1,4 +1,4 @@
-package factory_method3;
+package factory_method.ex03;
 
 /**
  * Payment 인터페이스

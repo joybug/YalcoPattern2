@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 /**
  * ProductFactory 추상 클래스
  * - 제품을 생성하고 주문하는 과정을 정의하는 추상 클래스

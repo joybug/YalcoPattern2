@@ -1,4 +1,4 @@
-package factory_method1;
+package factory_method.ex01;
 /**
  * CarFactory(자동차 공장) 클래스
  * - VehicleFactory를 상속받아 실제로 Car 객체를 생성하는 구체적인 공장 클래스

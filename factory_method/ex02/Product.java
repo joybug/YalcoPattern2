@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 /**
  * Product 인터페이스
  * - 모든 제품들이 공통적으로 구현해야 하는 기본 인터페이스

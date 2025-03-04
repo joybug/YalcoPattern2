@@ -1,4 +1,4 @@
-package factory_method3;
+package factory_method.ex03;
 
 /**
  * PayPalPayment 클래스 (페이팔 결제)

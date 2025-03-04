@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 /**
  * Book 클래스 (도서)
  * - Product 인터페이스를 구현한 구체적인 제품 클래스

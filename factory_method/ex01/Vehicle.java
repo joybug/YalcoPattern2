@@ -1,4 +1,4 @@
-package factory_method1;
+package factory_method.ex01;
 /**
  * Vehicle(차량) 인터페이스
  * - 모든 차량 타입(자동차, 오토바이 등)이 구현해야 하는 기본 인터페이스

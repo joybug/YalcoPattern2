@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 /**
  * Electronics 클래스 (전자제품)
  * - Product 인터페이스를 구현한 구체적인 제품 클래스

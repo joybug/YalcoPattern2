@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 /**
  * ConcreteProductFactory 클래스
  * - ProductFactory를 상속받아 실제 제품 생성 로직을 구현하는 구체적인 공장 클래스

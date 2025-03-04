@@ -1,4 +1,4 @@
-package factory_method2;
+package factory_method.ex02;
 /**
  * Clothing 클래스 (의류)
  * - Product 인터페이스를 구현한 구체적인 제품 클래스
