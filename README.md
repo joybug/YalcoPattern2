@@ -1,7 +1,7 @@
 # YalcoPattern2
 얄코패턴 시즌2
-얄코노션 : yalco.kr/notion
-소스위치 : https://yalco.notion.site/OODP-Example-Codes-Materials-65ec117a777b46b2b8c732d8188fd94e
+- 얄코노션 : yalco.kr/notion
+- 소스위치 : https://yalco.notion.site/OODP-Example-Codes-Materials-65ec117a777b46b2b8c732d8188fd94e
 ### Creational Patterns
 - Factory Method
 - Abstract Factory
