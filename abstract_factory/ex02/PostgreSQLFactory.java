@@ -29,6 +29,5 @@ public class PostgreSQLFactory implements DatabaseFactory {
     @Override
     public ResultSet createResultSet() {
         return new PostgreSQLResultSet();
-    }   
-    
+    }
 }
