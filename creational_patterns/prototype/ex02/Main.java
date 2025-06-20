@@ -11,12 +11,12 @@ public class Main {
      * @param args 명령행 인자
      */
     public static void main(String[] args) {
-        // 1. "welcome" 템플릿 등록: 사용자 이름을 치환할 수 있는 템플릿 문서
+        // 1. "welcome" 템플릿 등록: 사용자 이름을 치환할 수 있는 템플릿 문서 등록
         DocumentTemplateManager.addTemplate(
             "welcome",
             new TextDocument("Welcome, {name}!"));
 
-        // 2. "meeting" 템플릿 등록: 날짜와 시간을 치환할 수 있는 회의 안내 템플릿 문서
+        // 2. "meeting" 템플릿 등록: 날짜와 시간을 치환할 수 있는 회의 안내 템플릿 문서 등록
         DocumentTemplateManager.addTemplate(
             "meeting",
             new TextDocument(
