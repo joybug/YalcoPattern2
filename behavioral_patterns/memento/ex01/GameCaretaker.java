@@ -1,0 +1,20 @@
+package behavioral_patterns.memento.ex01;
+
+import java.util.List;
+import java.util.ArrayList;
+
+/**
+ * GameCaretaker 클래스는 게임 상태의 이력을 관리합니다.
+ * Memento 객체를 보관/제공하는 Caretaker 역할입니다.
+ */
+class GameCaretaker {
+    private List<GameMemento> mementoList = new ArrayList<>();
+
+    public void add(GameMemento state) {
+        mementoList.add(state);
+    }
+
+    public GameMemento get(int index) {
+        return mementoList.get(index);
+    }
+}
