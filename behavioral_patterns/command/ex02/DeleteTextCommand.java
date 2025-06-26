@@ -19,6 +19,7 @@ public class DeleteTextCommand implements Command {
      * @param length 삭제할 텍스트의 길이
      */
     public DeleteTextCommand(TextEditor editor, int position, int length) {
+        // 전달받은 인자를 멤버 변수에 저장
         this.editor = editor;
         this.position = position;
         // 삭제할 텍스트를 미리 저장 (undo를 위해)
@@ -31,6 +32,7 @@ public class DeleteTextCommand implements Command {
      */
     @Override
     public void execute() {
+        // 편집기의 deleteText 메서드 호출
         editor.deleteText(position, deletedText.length());
     }
 
@@ -40,6 +42,7 @@ public class DeleteTextCommand implements Command {
      */
     @Override
     public void undo() {
+        // 편집기의 insertText 메서드 호출
         editor.insertText(deletedText, position);
     }
 }

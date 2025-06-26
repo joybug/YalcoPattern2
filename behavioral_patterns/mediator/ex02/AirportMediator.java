@@ -2,6 +2,7 @@ package behavioral_patterns.mediator.ex02;
 
 /**
  * AirportMediator 인터페이스는 관제탑과 활주로, 비행기 간의 중재 역할을 정의합니다.
+ * 활주로의 사용 가능 여부를 확인하고, 상태를 변경하는 기능을 제공합니다.
  */
 interface AirportMediator {
     /**

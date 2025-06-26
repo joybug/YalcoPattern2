@@ -13,6 +13,7 @@ public class TextEditor {
      * 빈 StringBuilder를 생성하여 초기화합니다.
      */
     public TextEditor() {
+        // 빈 문자열로 초기화
         this.content = new StringBuilder();
     }
 
@@ -22,6 +23,7 @@ public class TextEditor {
      * @param position 삽입할 위치
      */
     public void insertText(String text, int position) {
+        // StringBuilder의 insert 메서드 사용
         content.insert(position, text);
     }
 
@@ -31,6 +33,7 @@ public class TextEditor {
      * @param length 삭제할 텍스트의 길이
      */
     public void deleteText(int position, int length) {
+        // StringBuilder의 delete 메서드 사용
         content.delete(position, position + length);
     }
 
@@ -41,6 +44,7 @@ public class TextEditor {
      * @return 지정된 범위의 텍스트
      */
     public String getTextSubstring(int start, int end) {
+        // StringBuilder의 substring 메서드 사용
         return content.substring(start, end);
     }
 
@@ -49,6 +53,7 @@ public class TextEditor {
      * @return 전체 텍스트 내용
      */
     public String getContent() {
+        // StringBuilder의 toString 메서드 사용
         return content.toString();
     }
 }

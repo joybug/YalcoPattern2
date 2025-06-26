@@ -19,6 +19,7 @@ public class InsertTextCommand implements Command {
      * @param position 텍스트를 삽입할 위치
      */
     public InsertTextCommand(TextEditor editor, String text, int position) {
+        // 전달받은 인자를 멤버 변수에 저장
         this.editor = editor;
         this.text = text;
         this.position = position;
@@ -30,6 +31,7 @@ public class InsertTextCommand implements Command {
      */
     @Override
     public void execute() {
+        // 편집기의 insertText 메서드 호출
         editor.insertText(text, position);
     }
 
@@ -39,6 +41,7 @@ public class InsertTextCommand implements Command {
      */
     @Override
     public void undo() {
+        // 편집기의 deleteText 메서드 호출
         editor.deleteText(position, text.length());
     }
 }

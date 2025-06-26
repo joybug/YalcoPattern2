@@ -7,5 +7,10 @@ import java.util.*;
  * interpret 메서드는 context를 받아 결과를 반환합니다.
  */
 interface Expression {
+    /**
+     * context를 받아 쿼리 결과를 반환하는 메서드
+     * @param context 데이터베이스 컨텍스트
+     * @return 쿼리 결과(행 리스트)
+     */
     List<Map<String, String>> interpret(Context context);
 }

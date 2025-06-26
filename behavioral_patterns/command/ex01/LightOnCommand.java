@@ -20,7 +20,7 @@ public class LightOnCommand implements Command {
     }
 
     /**
-     * execute() 메서드는 전등을 켜는 명령을 실행합니다.
+     * 전등을 켜는 명령을 실행합니다.
      * 내부적으로 Light 객체의 turnOn()을 호출합니다.
      */
     @Override

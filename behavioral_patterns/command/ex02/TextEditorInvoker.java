@@ -18,9 +18,12 @@ public class TextEditorInvoker {
      * @param command 실행할 Command 객체
      */
     public void executeCommand(Command command) {
+        // 명령 실행
         command.execute();
+        // undo 스택에 추가
         undoStack.push(command);
-        redoStack.clear(); // 새 명령이 실행되면 redo 스택은 초기화
+        // 새 명령이 실행되면 redo 스택은 초기화
+        redoStack.clear();
     }
 
     /**
@@ -29,8 +32,11 @@ public class TextEditorInvoker {
      */
     public void undo() {
         if (!undoStack.isEmpty()) {
+            // undo 스택에서 명령 꺼내기
             Command command = undoStack.pop();
+            // 명령 취소
             command.undo();
+            // redo 스택에 추가
             redoStack.push(command);
         }
     }
@@ -41,8 +47,11 @@ public class TextEditorInvoker {
      */
     public void redo() {
         if (!redoStack.isEmpty()) {
+            // redo 스택에서 명령 꺼내기
             Command command = redoStack.pop();
+            // 명령 재실행
             command.execute();
+            // undo 스택에 추가
             undoStack.push(command);
         }
     }

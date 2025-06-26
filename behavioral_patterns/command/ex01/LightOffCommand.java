@@ -20,7 +20,7 @@ public class LightOffCommand implements Command {
     }
 
     /**
-     * execute 메서드는 실제로 전등을 끄는 명령을 수행합니다.
+     * 실제로 전등을 끄는 명령을 수행합니다.
      * Command 인터페이스의 메서드를 구현한 것으로, 호출 시 수신자의 turnOff()를 실행합니다.
      */
     @Override

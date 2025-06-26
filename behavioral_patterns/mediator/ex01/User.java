@@ -5,9 +5,20 @@ package behavioral_patterns.mediator.ex01;
  * 각 사용자는 mediator(중재자)와 이름을 가집니다.
  */
 public abstract class User {
+    /**
+     * 사용자가 소속된 중재자 객체입니다.
+     */
     protected ChatMediator mediator;
+    /**
+     * 사용자의 이름입니다.
+     */
     protected String name;
 
+    /**
+     * User 객체를 생성합니다.
+     * @param mediator 중재자 객체
+     * @param name 사용자 이름
+     */
     public User(ChatMediator mediator, String name) {
         this.mediator = mediator;
         this.name = name;

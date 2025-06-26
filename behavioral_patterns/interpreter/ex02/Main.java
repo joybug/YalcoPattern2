@@ -6,7 +6,13 @@ import java.util.*;
  * Main 클래스는 SQL 인터프리터 패턴의 동작을 테스트하는 실행 예제입니다.
  */
 public class Main {
+    /**
+     * 프로그램의 시작점입니다.
+     * SQL 인터프리터 패턴을 사용한 쿼리 해석 기능을 시연합니다.
+     * @param args 명령행 인자
+     */
     public static void main(String[] args) {
+        // 데이터베이스 컨텍스트 생성 (샘플 users 테이블 포함)
         Context context = new Context();
 
         // 쿼리 1: users 테이블의 모든 컬럼 조회

@@ -2,11 +2,13 @@ package behavioral_patterns.command.ex01;
 
 /**
  * 명령 패턴(Command Pattern) 예제의 메인 클래스
+ * <p>전등(Light), 명령(Command), 리모컨(RemoteControl)을 생성하고 동작을 테스트합니다.</p>
  */
 public class Main {
     /**
      * 프로그램의 시작점입니다.
      * 명령 객체와 리모컨을 생성하고, 명령을 설정한 뒤 버튼을 눌러 동작을 확인합니다.
+     * @param args 커맨드라인 인자
      */
     public static void main(String[] args) {
         // 전등(수신자) 객체 생성

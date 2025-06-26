@@ -2,7 +2,9 @@ package behavioral_patterns.command.ex01;
 
 /**
  * 전등(Light) 클래스
- * 실제 동작을 수행하는 수신자 역할입니다.
+ * 실제 동작을 수행하는 수신자(Receiver) 역할입니다.
+ *
+ * <p>명령 객체(Command)가 이 객체의 메서드를 호출하여 동작을 수행합니다.</p>
  */
 public class Light {
     /**
